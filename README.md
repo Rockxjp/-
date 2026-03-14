@@ -3,3 +3,5 @@ If you found some bugs of the game, don't blame me.
 
 Contact Email: rockkolei@gmail.com
 Credits: Rockxjp, NEENmzd
+
+Rockxjp is gay
