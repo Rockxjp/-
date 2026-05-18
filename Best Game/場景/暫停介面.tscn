@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://h3wkk1voqlbj"]
+
+[node name="暫停介面" type="Control" unique_id=2068735188]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -72.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=655758351]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Button" type="Button" parent="." unique_id=870835394]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 416.0
+offset_right = 704.0
+offset_bottom = 480.0
+theme_override_font_sizes/font_size = 32
+text = "離開遊戲"
+
+[node name="Button2" type="Button" parent="." unique_id=177132454]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 288.0
+offset_right = 704.0
+offset_bottom = 352.0
+theme_override_font_sizes/font_size = 32
+text = "設定"
+
+[node name="Button3" type="Button" parent="." unique_id=911893547]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 160.0
+offset_right = 704.0
+offset_bottom = 224.0
+theme_override_font_sizes/font_size = 32
+text = "繼續遊戲"
