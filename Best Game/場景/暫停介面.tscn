@@ -17,26 +17,35 @@ offset_bottom = 648.0
 [node name="Button" type="Button" parent="." unique_id=870835394]
 layout_mode = 0
 offset_left = 448.0
-offset_top = 416.0
+offset_top = 480.0
 offset_right = 704.0
-offset_bottom = 480.0
+offset_bottom = 544.0
 theme_override_font_sizes/font_size = 32
 text = "離開遊戲"
 
 [node name="Button2" type="Button" parent="." unique_id=177132454]
 layout_mode = 0
 offset_left = 448.0
-offset_top = 288.0
+offset_top = 224.0
 offset_right = 704.0
-offset_bottom = 352.0
+offset_bottom = 288.0
 theme_override_font_sizes/font_size = 32
-text = "設定"
+text = "更換角色"
 
 [node name="Button3" type="Button" parent="." unique_id=911893547]
 layout_mode = 0
 offset_left = 448.0
-offset_top = 160.0
+offset_top = 96.0
 offset_right = 704.0
-offset_bottom = 224.0
+offset_bottom = 160.0
 theme_override_font_sizes/font_size = 32
 text = "繼續遊戲"
+
+[node name="Button4" type="Button" parent="." unique_id=162911465]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 352.0
+offset_right = 704.0
+offset_bottom = 416.0
+theme_override_font_sizes/font_size = 32
+text = "立即重生"
