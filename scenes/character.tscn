@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dyoatd3qat5s1" path="res://Assets/Ent/Npc's/Knight/Run/Run-Sheet.png" id="3_my7n2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hc63y"]
-size = Vector2(10, 29)
+size = Vector2(18, 29)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dp8ca"]
 atlas = ExtResource("2_lrhn5")
@@ -95,7 +95,7 @@ script = ExtResource("1_cb56e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1700797613]
 z_index = 1
-position = Vector2(240, 85.5)
+position = Vector2(239, 85.5)
 shape = SubResource("RectangleShape2D_hc63y")
 metadata/_edit_group_ = true
 

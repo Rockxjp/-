@@ -708,10 +708,10 @@ tile_set = SubResource("TileSet_0gr3w")
 script = ExtResource("3_3xj3m")
 
 [node name="Character" parent="." unique_id=1397486557 groups=["player"] instance=ExtResource("4_mcffj")]
-position = Vector2(-195, -114)
+position = Vector2(-205, -101)
 
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=133257235]
-position = Vector2(218, 104)
+position = Vector2(240, 77)
 zoom = Vector2(4, 4)
 position_smoothing_enabled = true
 

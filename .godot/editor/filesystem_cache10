@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779381396
+::res://::1779384056
 README.md::TextFile::-1::1779329559::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1779381384
 ::res://Assets/Ent/::1779346792
@@ -269,13 +269,13 @@ Bone.png::CompressedTexture2D::3916303388371925205::1779346792::1779369361::1:::
 Hands.png::CompressedTexture2D::2427795820876922584::1779346792::1779369361::1::::<><><>0<>0<>c91787430335e851a8f4a0c14db484c6<>res://.godot/imported/Hands.png-ccd1f50d236acd62dce737eb38cdaf77.ctex::
 ::res://Assets/Weapons/Wood/::1779369361
 Wood.png::CompressedTexture2D::5070015381237322473::1779346792::1779369361::1::::<><><>0<>0<>67b39701d93e189acfce11c10ada9b9d<>res://.godot/imported/Wood.png-b70a39c737f17dbcca6f6528d9c38d2a.ctex::
-::res://scenes/::1779381010
+::res://scenes/::1779383277
 character.tscn::PackedScene::2358627908442173553::1779381010::0::1::::<><><>0<>0<><>::uid://dcfhr70g0ae4f::::res://scripts/character.gd<>uid://bujuukmh3mcmg::::res://Assets/Ent/Npc's/Knight/Idle/Idle-Sheet.png<>uid://dyoatd3qat5s1::::res://Assets/Ent/Npc's/Knight/Run/Run-Sheet.png
-Game.tscn::PackedScene::1101020746281433329::1779374823::0::1::::<><><>0<>0<><>::uid://b5tsapsbe3e25::::res://Assets/Tilemap/Assets.png<>uid://bynfhggkvcnqq::::res://Assets/Structures/Buildings/Props.png<>uid://c4ie5iv6m0y6n::::res://scripts/tilemap.gd<>uid://8usi0fgdmej6::::res://scenes/character.tscn<>uid://bp3geryijkeji::::res://scripts/wall1.gd<>uid://bfygoxvowojau::::res://Assets/other objects/wall1.png<>uid://3wud73lpgfxd::::res://scripts/wall2.gd<>uid://kq4k51eg1dk4::::res://Assets/other objects/wall2.png<>uid://b5vtmktu2faoa::::res://scripts/area2d.gd
+Game.tscn::PackedScene::1101020746281433329::1779383277::0::1::::<><><>0<>0<><>::uid://b5tsapsbe3e25::::res://Assets/Tilemap/Assets.png<>uid://bynfhggkvcnqq::::res://Assets/Structures/Buildings/Props.png<>uid://c4ie5iv6m0y6n::::res://scripts/tilemap.gd<>uid://8usi0fgdmej6::::res://scenes/character.tscn<>uid://bp3geryijkeji::::res://scripts/wall1.gd<>uid://bfygoxvowojau::::res://Assets/other objects/wall1.png<>uid://3wud73lpgfxd::::res://scripts/wall2.gd<>uid://kq4k51eg1dk4::::res://Assets/other objects/wall2.png<>uid://b5vtmktu2faoa::::res://scripts/area2d.gd
 player-ui.tscn::PackedScene::550478680731722071::1779346792::0::1::::<><><>0<>0<><>::uid://71c4q8fucq2p::::res://scripts/player-ui.gd
-::res://scripts/::1779346792
+::res://scripts/::1779383223
 area2d.gd::GDScript::4536613533588521332::1779346792::0::1::::<>Area2D<><>0<>0<><>::
-character.gd::GDScript::7310418724244756863::1779346792::0::1::::<>CharacterBody2D<><>0<>0<><>::
+character.gd::GDScript::7310418724244756863::1779383223::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player-ui.gd::GDScript::2299890931637515285::1779346792::0::1::::<>Control<><>0<>0<><>::
 tilemap.gd::GDScript::6825129750763071667::1779346792::0::1::::<>TileMapLayer<><>0<>0<><>::
 wall1.gd::GDScript::3497428290857645738::1779346792::0::1::::<>StaticBody2D<><>0<>0<><>::
