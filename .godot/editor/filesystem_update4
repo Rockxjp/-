@@ -1,4 +1,4 @@
-res://scenes/player-ui.tscn
-res://scripts/character.gd
 res://scenes/Game.tscn
+res://scripts/character.gd
+res://scenes/player-ui.tscn
 res://scenes/character.tscn
