@@ -1,6 +1,5 @@
 extends StaticBody2D
-@onready var col = $CollisionShape2D
-
+@export var col: CollisionShape2D
 
 
 func enable_wall():

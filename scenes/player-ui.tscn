@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://h3wkk1voqlbj"]
 
-[ext_resource type="Script" uid="uid://71c4q8fucq2p" path="res://scripts/player-ui.gd" id="1_uc1fy"]
+[ext_resource type="Script" uid="uid://71c4q8fucq2p" path="res://scripts/player_ui.gd" id="1_uc1fy"]
 
 [node name="暫停介面" type="Control" unique_id=2068735188]
 layout_mode = 3

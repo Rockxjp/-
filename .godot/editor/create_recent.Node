@@ -1,9 +1,10 @@
 Sprite2D
+GraphFrame
 CollisionShape2D
 StaticBody2D
-Label
-AnimatableBody2D
 Area2D
+AnimatableBody2D
+Label
 AudioStreamPlayer2D
 CharacterBody2D
 DirectionalLight2D
