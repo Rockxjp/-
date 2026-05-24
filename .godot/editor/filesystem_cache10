@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779640861
+::res://::1779641992
 README.md::TextFile::-1::1779381874::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1779428156
 ::res://Assets/Ent/::1779381872
@@ -143,7 +143,7 @@ Death-Sheet.png::CompressedTexture2D::8057000500374682048::1779381872::177938445
 Idle-Sheet.png::CompressedTexture2D::702169341532394656::1779381872::1779384453::1::::<><><>0<>0<>f1177a71366298b62d6098b7ec402065<>res://.godot/imported/Idle-Sheet.png-a51244fde7de452d2438a919734bc994.ctex::
 ::res://Assets/Ent/Npc's/Wizzard/Run/::1779384453
 Run-Sheet.png::CompressedTexture2D::4588252104514963069::1779381872::1779384453::1::::<><><>0<>0<>d1f15e5850a2000b85da032a2db6cf7f<>res://.godot/imported/Run-Sheet.png-41467e9194af9a45daa3777c83f2db14.ctex::
-::res://Assets/other objects/::1779641363
+::res://Assets/other objects/::1779641366
 floor1.png::CompressedTexture2D::3038617673641883373::1779636883::1779636972::1::::<><><>0<>0<>2a0b59c5d32efbb943ff96c7106ad09e<>res://.godot/imported/floor1.png-b8c266baee3ef85a9607600bfc7c4e3c.ctex::
 floor2.png::CompressedTexture2D::7004403275623071895::1779640603::1779640620::1::::<><><>0<>0<>bbece373e893a4f491a2c31b417e99d0<>res://.godot/imported/floor2.png-919879496d71e4213bbb477e2a7e8291.ctex::
 floor3.png::CompressedTexture2D::7941128741511764801::1779641340::1779641366::1::::<><><>0<>0<>09c594490beb65af1af2a66a6a06b3c8<>res://.godot/imported/floor3.png-fbab33ca0c98be3a00f30babdafad454.ctex::
@@ -275,20 +275,23 @@ Bone.png::CompressedTexture2D::3916303388371925205::1779381874::1779384452::1:::
 Hands.png::CompressedTexture2D::2427795820876922584::1779381874::1779384452::1::::<><><>0<>0<>c91787430335e851a8f4a0c14db484c6<>res://.godot/imported/Hands.png-ccd1f50d236acd62dce737eb38cdaf77.ctex::
 ::res://Assets/Weapons/Wood/::1779384452
 Wood.png::CompressedTexture2D::5070015381237322473::1779381874::1779384452::1::::<><><>0<>0<>67b39701d93e189acfce11c10ada9b9d<>res://.godot/imported/Wood.png-b70a39c737f17dbcca6f6528d9c38d2a.ctex::
-::res://scenes/::1779641008
+::res://scenes/::1779641909
 character.tscn::PackedScene::2358627908442173553::1779429042::0::1::::<><><>0<>0<><>::uid://dcfhr70g0ae4f::::res://scripts/character.gd<>uid://bujuukmh3mcmg::::res://Assets/Ent/Npc's/Knight/Idle/Idle-Sheet.png<>uid://dyoatd3qat5s1::::res://Assets/Ent/Npc's/Knight/Run/Run-Sheet.png
-Game.tscn::PackedScene::1101020746281433329::1779641008::0::1::::<><><>0<>0<><>::uid://b5tsapsbe3e25::::res://Assets/Tilemap/Assets.png<>uid://bynfhggkvcnqq::::res://Assets/Structures/Buildings/Props.png<>uid://c4ie5iv6m0y6n::::res://scripts/tilemap.gd<>uid://8usi0fgdmej6::::res://scenes/character.tscn<>uid://bp3geryijkeji::::res://scripts/wall_1.gd<>uid://bfygoxvowojau::::res://Assets/other objects/wall1.png<>uid://3wud73lpgfxd::::res://scripts/wall_2.gd<>uid://kq4k51eg1dk4::::res://Assets/other objects/wall2.png<>uid://b5vtmktu2faoa::::res://scripts/detect_1.gd<>uid://br03j3o622cla::::res://scripts/detect_2.gd<>uid://b3clixhq31h6h::::res://scripts/movingplatform_1.gd<>uid://cay2fakyncslq::::res://Assets/other objects/moving platform1.png<>uid://bjj6ubbpmjqlp::::res://Assets/other objects/floor1.png<>uid://bfv0172pdexcs::::res://scripts/floor_1.gd<>uid://c5hmtds78q0mc::::res://scripts/detect_3.gd<>uid://bhv4gw001qiyv::::res://scripts/wall_3.gd<>uid://cxrsa52iag2sy::::res://Assets/other objects/wall3.png<>uid://d3wpsmgfitill::::res://scripts/floor_2.gd<>uid://c618q7myj5wux::::res://Assets/other objects/floor2.png
+Game.tscn::PackedScene::1101020746281433329::1779641909::0::1::::<><><>0<>0<><>::uid://b5tsapsbe3e25::::res://Assets/Tilemap/Assets.png<>uid://bynfhggkvcnqq::::res://Assets/Structures/Buildings/Props.png<>uid://c4ie5iv6m0y6n::::res://scripts/tilemap.gd<>uid://8usi0fgdmej6::::res://scenes/character.tscn<>uid://bp3geryijkeji::::res://scripts/wall_1.gd<>uid://bfygoxvowojau::::res://Assets/other objects/wall1.png<>uid://3wud73lpgfxd::::res://scripts/wall_2.gd<>uid://kq4k51eg1dk4::::res://Assets/other objects/wall2.png<>uid://b5vtmktu2faoa::::res://scripts/detect_1.gd<>uid://br03j3o622cla::::res://scripts/detect_2.gd<>uid://b3clixhq31h6h::::res://scripts/movingplatform_1.gd<>uid://cay2fakyncslq::::res://Assets/other objects/moving platform1.png<>uid://bjj6ubbpmjqlp::::res://Assets/other objects/floor1.png<>uid://bfv0172pdexcs::::res://scripts/floor_1.gd<>uid://c5hmtds78q0mc::::res://scripts/detect_3.gd<>uid://bhv4gw001qiyv::::res://scripts/wall_3.gd<>uid://cxrsa52iag2sy::::res://Assets/other objects/wall3.png<>uid://d3wpsmgfitill::::res://scripts/floor_2.gd<>uid://c618q7myj5wux::::res://Assets/other objects/floor2.png<>uid://cx70mcpcgq3s6::::res://scripts/detect_4.gd<>uid://mijvtm2vvmc::::res://Assets/other objects/wall4.png<>uid://bey87yarlgcv8::::res://scripts/wall_4.gd<>uid://dle0h3cgd88yv::::res://Assets/other objects/floor3.png<>uid://dnnnhhmbs4pks::::res://scripts/floor_3.gd
 player-ui.tscn::PackedScene::550478680731722071::1779640860::0::1::::<><><>0<>0<><>::uid://71c4q8fucq2p::::res://scripts/player_ui.gd
-::res://scripts/::1779641016
+::res://scripts/::1779641665
 character.gd::GDScript::7310418724244756863::1779639956::0::1::::<>CharacterBody2D<><>0<>0<><>::
 detect_1.gd::GDScript::4536613533588521332::1779381921::0::1::::<>Area2D<><>0<>0<><>::
 detect_2.gd::GDScript::3632958111060460006::1779641016::0::1::::<>Area2D<><>0<>0<><>::
 detect_3.gd::GDScript::6893720041678203406::1779641008::0::1::::<>Area2D<><>0<>0<><>::
+detect_4.gd::GDScript::6454784341855197395::1779641643::0::1::::<>Area2D<><>0<>0<><>::
 floor_1.gd::GDScript::2782282913321855266::1779638653::0::1::::<>StaticBody2D<><>0<>0<><>::
 floor_2.gd::GDScript::9170909522502962521::1779640825::0::1::::<>StaticBody2D<><>0<>0<><>::
+floor_3.gd::GDScript::8099356136911550538::1779641665::0::1::::<>StaticBody2D<><>0<>0<><>::
 movingplatform_1.gd::GDScript::4356520453953897105::1779639148::0::1::::<>AnimatableBody2D<><>0<>0<><>::
 player_ui.gd::GDScript::2299890931637515285::1779384424::0::1::::<>Control<><>0<>0<><>::
 tilemap.gd::GDScript::6825129750763071667::1779640979::0::1::::<>TileMapLayer<><>0<>0<><>::
 wall_1.gd::GDScript::3497428290857645738::1779638627::0::1::::<>StaticBody2D<><>0<>0<><>::
 wall_2.gd::GDScript::2011925354213071141::1779638640::0::1::::<>StaticBody2D<><>0<>0<><>::
 wall_3.gd::GDScript::2922867224853322725::1779640528::0::1::::<>StaticBody2D<><>0<>0<><>::
+wall_4.gd::GDScript::2718783191856659443::1779641648::0::1::::<>StaticBody2D<><>0<>0<><>::
