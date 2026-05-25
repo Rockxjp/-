@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://mvdt3pveckiw"]
+
+[ext_resource type="Script" uid="uid://cerxgo0sqe2m6" path="res://scripts/game_over.gd" id="1_xeevv"]
+[ext_resource type="AudioStream" uid="uid://b0nwkvhjiaf2l" path="res://Assets/music/牢大.mp3" id="2_wqhvx"]
+
+[node name="Control" type="Control" unique_id=1204585771]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xeevv")
+
+[node name="Panel" type="Panel" parent="." unique_id=1513720764]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Button" type="Button" parent="." unique_id=1670761105]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 416.0
+offset_right = 512.0
+offset_bottom = 480.0
+theme_override_font_sizes/font_size = 32
+text = "立即重生"
+
+[node name="Button2" type="Button" parent="." unique_id=220038125]
+layout_mode = 0
+offset_left = 640.0
+offset_top = 416.0
+offset_right = 896.0
+offset_bottom = 480.0
+theme_override_font_sizes/font_size = 32
+text = "離開遊戲"
+
+[node name="Label" type="Label" parent="." unique_id=790080554]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 128.0
+offset_right = 832.0
+offset_bottom = 256.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 64
+text = "你墜機了"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=269704530]
+stream = ExtResource("2_wqhvx")
+volume_db = -10.0
+autoplay = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

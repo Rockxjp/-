@@ -5,7 +5,7 @@ extends Area2D
 var bodies := []
 
 func _ready():
-	floor1.disable_wall()
+	floor1.enable_wall()
 
 func _physics_process(delta):
 

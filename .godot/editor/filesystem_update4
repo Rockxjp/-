@@ -1,1 +1,9 @@
+res://scenes/player_ui.tscn
+res://scripts/tilemap.gd
+res://scripts/game_over.gd
 res://scenes/Game.tscn
+res://scenes/game_over.tscn
+res://scripts/player_ui.gd
+res://scripts/detect_2.gd
+res://scripts/killzone.gd
+res://scripts/game.gd
