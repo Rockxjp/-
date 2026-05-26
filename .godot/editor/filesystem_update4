@@ -1,3 +1,2 @@
-res://scripts/character.gd
-res://scenes/character.tscn
 res://scenes/Game.tscn
+res://scripts/movingplatform_2.gd
