@@ -714,7 +714,7 @@ size = Vector2(32, 128.00002)
 size = Vector2(32, 64)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0y00m"]
-size = Vector2(8, 96)
+size = Vector2(16, 96)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g4kob"]
 size = Vector2(112, 64)
@@ -830,7 +830,7 @@ wall1 = NodePath("../wall1")
 wall2 = NodePath("../wall2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detect1" unique_id=846445133]
-position = Vector2(1242, -144)
+position = Vector2(1254, -144)
 shape = SubResource("RectangleShape2D_0y00m")
 
 [node name="detect2" type="Area2D" parent="." unique_id=1557413433 node_paths=PackedStringArray("floor1")]
@@ -976,6 +976,7 @@ position = Vector2(-168, -7)
 shape = SubResource("WorldBoundaryShape2D_jhsr3")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=1891062066]
+visible = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=2094818918]
 light_mask = 2
