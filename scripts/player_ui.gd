@@ -1,11 +1,7 @@
 extends Control
 
-
-
 func _on_離開遊戲_pressed() -> void:
 	get_tree().quit()
-
-
 
 func _on_立即重生_pressed() -> void:
 	get_tree().paused = false
