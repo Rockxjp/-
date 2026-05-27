@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 Killzone="*uid://dygbgy5n4gktm"
 Game="*uid://bmxgavrlnk4wm"
+Gamemanager="*uid://byhjleughbt0p"
 
 [global_group]
 

@@ -33,6 +33,7 @@
 [ext_resource type="Texture2D" uid="uid://baqeh3sksrk83" path="res://Assets/other objects/wall5.png" id="30_jai3c"]
 [ext_resource type="Script" uid="uid://d05w54o1go384" path="res://scripts/detect_7.gd" id="32_1gdd5"]
 [ext_resource type="Script" uid="uid://c8ulqjgn6cwdq" path="res://scripts/deathcount.gd" id="33_426vi"]
+[ext_resource type="Texture2D" uid="uid://d3dqf2n8fn1qt" path="res://Assets/other objects/block1.png" id="33_naigu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2kxir"]
 texture = ExtResource("1_g4kob")
@@ -777,7 +778,7 @@ size = Vector2(48, 16)
 size = Vector2(16, 128)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_naigu"]
-size = Vector2(48, 136)
+size = Vector2(16, 104)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m1oc7"]
 size = Vector2(48, 190)
@@ -987,19 +988,13 @@ shape = SubResource("WorldBoundaryShape2D_jhsr3")
 visible = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=2094818918]
-light_mask = 2
-visibility_layer = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" unique_id=144756686]
-light_mask = 2
-visibility_layer = 2
 position = Vector2(584, -375.99997)
 scale = Vector2(2.5483873, 3.371323)
 texture = ExtResource("28_0bq3a")
 
 [node name="Sprite2D2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" unique_id=28846735]
-light_mask = 2
-visibility_layer = 2
 position = Vector2(1802.2622, -363.86356)
 scale = Vector2(2.7570074, 3.280415)
 texture = ExtResource("28_0bq3a")
@@ -1029,7 +1024,7 @@ texture = ExtResource("30_jai3c")
 script = ExtResource("32_1gdd5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detect7" unique_id=234037782]
-position = Vector2(1430, -68)
+position = Vector2(1430, -84)
 shape = SubResource("RectangleShape2D_naigu")
 
 [node name="block1" type="StaticBody2D" parent="." unique_id=1120640384]
@@ -1039,16 +1034,22 @@ position = Vector2(1430, -256)
 shape = SubResource("RectangleShape2D_m1oc7")
 
 [node name="Sprite2D" type="Sprite2D" parent="block1" unique_id=466356723]
+position = Vector2(1430, -256)
+scale = Vector2(0.7164194, 0.6808511)
+texture = ExtResource("33_naigu")
 
 [node name="deathcount" type="CanvasLayer" parent="." unique_id=1127626294 node_paths=PackedStringArray("death_label")]
 script = ExtResource("33_426vi")
 death_label = NodePath("Label")
 
 [node name="Label" type="Label" parent="deathcount" unique_id=1196671821]
-offset_left = 192.0
-offset_top = -112.0
-offset_right = 256.0
-offset_bottom = -80.0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -64.0
+offset_bottom = 32.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 32
 vertical_alignment = 1
 
 [connection signal="body_entered" from="detect1" to="detect1" method="_on_body_entered"]

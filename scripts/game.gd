@@ -1,7 +1,6 @@
 extends Node2D
 
 var shop_scene = preload("res://scenes/player_ui.tscn")
-
 @onready var ui_layer = get_node("CanvasLayer")
 
 func _unhandled_input(event):

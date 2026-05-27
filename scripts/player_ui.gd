@@ -6,7 +6,7 @@ func _on_離開遊戲_pressed() -> void:
 func _on_立即重生_pressed() -> void:
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scenes/Game.tscn")
-
+	Gamemanager.death_count += 1
 func _on_繼續遊戲_pressed() -> void:
 	get_tree().paused = false
 	queue_free()
