@@ -5,3 +5,9 @@ func _on_button_2_pressed() -> void:
 
 func _on_button_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/Game.tscn")
+
+func _unhandled_input(event):
+	if event.is_action_pressed("enter"):
+		get_tree().change_scene_to_file("res://scenes/Game.tscn")
+	if event.is_action_pressed("space"):
+		get_tree().change_scene_to_file("res://scenes/Game.tscn")

@@ -31,6 +31,8 @@
 [ext_resource type="Script" uid="uid://be2sj3nsqtp0q" path="res://scripts/detect_6.gd" id="29_i4jil"]
 [ext_resource type="Script" uid="uid://byvsbs4d2bk70" path="res://scripts/wall_5.gd" id="30_1gdd5"]
 [ext_resource type="Texture2D" uid="uid://baqeh3sksrk83" path="res://Assets/other objects/wall5.png" id="30_jai3c"]
+[ext_resource type="Script" uid="uid://d05w54o1go384" path="res://scripts/detect_7.gd" id="32_1gdd5"]
+[ext_resource type="Script" uid="uid://c8ulqjgn6cwdq" path="res://scripts/deathcount.gd" id="33_426vi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2kxir"]
 texture = ExtResource("1_g4kob")
@@ -774,6 +776,12 @@ size = Vector2(48, 16)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_426vi"]
 size = Vector2(16, 128)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_naigu"]
+size = Vector2(48, 136)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m1oc7"]
+size = Vector2(48, 190)
+
 [node name="Node2D" type="Node2D" unique_id=1820947968]
 position = Vector2(2, 0)
 script = ExtResource("1_jbgew")
@@ -1017,6 +1025,32 @@ position = Vector2(1878, -64)
 scale = Vector2(0.28070354, 0.28131866)
 texture = ExtResource("30_jai3c")
 
+[node name="detect7" type="Area2D" parent="." unique_id=1384740548]
+script = ExtResource("32_1gdd5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detect7" unique_id=234037782]
+position = Vector2(1430, -68)
+shape = SubResource("RectangleShape2D_naigu")
+
+[node name="block1" type="StaticBody2D" parent="." unique_id=1120640384]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="block1" unique_id=495013796]
+position = Vector2(1430, -256)
+shape = SubResource("RectangleShape2D_m1oc7")
+
+[node name="Sprite2D" type="Sprite2D" parent="block1" unique_id=466356723]
+
+[node name="deathcount" type="CanvasLayer" parent="." unique_id=1127626294 node_paths=PackedStringArray("death_label")]
+script = ExtResource("33_426vi")
+death_label = NodePath("Label")
+
+[node name="Label" type="Label" parent="deathcount" unique_id=1196671821]
+offset_left = 192.0
+offset_top = -112.0
+offset_right = 256.0
+offset_bottom = -80.0
+vertical_alignment = 1
+
 [connection signal="body_entered" from="detect1" to="detect1" method="_on_body_entered"]
 [connection signal="body_entered" from="detect2" to="detect2" method="_on_body_entered"]
 [connection signal="body_exited" from="detect2" to="detect2" method="_on_body_exited"]
@@ -1026,3 +1060,5 @@ texture = ExtResource("30_jai3c")
 [connection signal="body_entered" from="detect5" to="movingplatform2" method="_on_detect_5_body_entered"]
 [connection signal="body_entered" from="detect6" to="detect6" method="_on_body_entered"]
 [connection signal="body_exited" from="detect6" to="detect6" method="_on_body_exited"]
+[connection signal="body_entered" from="detect7" to="Character" method="_on_detect_7_body_entered"]
+[connection signal="body_entered" from="detect7" to="detect7" method="_on_body_entered"]

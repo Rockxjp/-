@@ -1,1 +1,7 @@
 res://scenes/Game.tscn
+res://scripts/game_over.gd
+res://scripts/killzone.gd
+res://scripts/deathcount.gd
+res://scripts/character.gd
+res://scripts/detect_7.gd
+res://scripts/detect_6.gd
