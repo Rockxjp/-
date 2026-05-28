@@ -10,3 +10,6 @@ func _on_立即重生_pressed() -> void:
 func _on_繼續遊戲_pressed() -> void:
 	get_tree().paused = false
 	queue_free()
+
+func _on_更換角色_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/character_change.tscn")

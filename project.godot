@@ -17,9 +17,8 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Killzone="*uid://dygbgy5n4gktm"
-Game="*uid://bmxgavrlnk4wm"
 Gamemanager="*uid://byhjleughbt0p"
+Game="*uid://bmxgavrlnk4wm"
 
 [global_group]
 

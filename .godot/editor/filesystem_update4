@@ -1,12 +1,1 @@
 res://scenes/Game.tscn
-res://scripts/character.gd
-res://scripts/game.gd
-res://scenes/death_count.tscn
-res://scenes/canvas_layer.gd
-res://scripts/gamemanger.gd
-res://scripts/game_over.gd
-res://scripts/killzone.gd
-res://scenes/gamemanger.tscn
-res://scenes/gamemanager.tscn
-res://scripts/deathcount.gd
-res://scripts/player_ui.gd

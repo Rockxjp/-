@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://bht8rqsif40tp"]
+
+[ext_resource type="Script" uid="uid://cow3wey3un8x3" path="res://scripts/ending.gd" id="1_mqjok"]
+
+[node name="ending" type="Control" unique_id=1446478640]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mqjok")
+
+[node name="Panel" type="Panel" parent="." unique_id=1243160774]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="." unique_id=954592420]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 128.0
+offset_right = 832.0
+offset_bottom = 256.0
+theme_override_font_sizes/font_size = 64
+text = "遊戲通關"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=701184323]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 384.0
+offset_right = 704.0
+offset_bottom = 448.0
+theme_override_font_sizes/font_size = 32
+text = "離開遊戲"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

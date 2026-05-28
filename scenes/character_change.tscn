@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dn0w4rv2efdr7"]
+
+[node name="character_change" type="Control" unique_id=2025424129]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1733991729]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="knight_button" type="Button" parent="." unique_id=123473226]
+layout_mode = 0
+offset_left = 696.0
+offset_top = 400.0
+offset_right = 928.0
+offset_bottom = 584.0
+
+[node name="stone_button" type="Button" parent="." unique_id=395540313]
+layout_mode = 0
+offset_left = 248.0
+offset_top = 384.0
+offset_right = 448.0
+offset_bottom = 592.0
+
+[node name="knight" type="Sprite2D" parent="." unique_id=511198174]
+
+[node name="stone" type="Sprite2D" parent="." unique_id=1161741568]

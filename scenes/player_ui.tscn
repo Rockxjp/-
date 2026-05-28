@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://71c4q8fucq2p" path="res://scripts/player_ui.gd" id="1_jkj6h"]
 
-[node name="暫停介面" type="Control" unique_id=2068735188]
+[node name="player_ui" type="Control" unique_id=2068735188]
 process_mode = 2
 layout_mode = 3
 anchors_preset = 15
@@ -54,5 +54,6 @@ theme_override_font_sizes/font_size = 32
 text = "立即重生"
 
 [connection signal="pressed" from="離開遊戲" to="." method="_on_離開遊戲_pressed"]
+[connection signal="pressed" from="更換角色" to="." method="_on_更換角色_pressed"]
 [connection signal="pressed" from="繼續遊戲" to="." method="_on_繼續遊戲_pressed"]
 [connection signal="pressed" from="立即重生" to="." method="_on_立即重生_pressed"]
