@@ -29,8 +29,6 @@
 [ext_resource type="Script" uid="uid://yn30t8wt6pat" path="res://scripts/movingplatform_2.gd" id="26_jhsr3"]
 [ext_resource type="Texture2D" uid="uid://d3is6ar0mu37n" path="res://Assets/Tilemap/Background_2.png" id="28_0bq3a"]
 [ext_resource type="Script" uid="uid://be2sj3nsqtp0q" path="res://scripts/detect_6.gd" id="29_i4jil"]
-[ext_resource type="Script" uid="uid://byvsbs4d2bk70" path="res://scripts/wall_5.gd" id="30_1gdd5"]
-[ext_resource type="Texture2D" uid="uid://baqeh3sksrk83" path="res://Assets/other objects/wall5.png" id="30_jai3c"]
 [ext_resource type="Script" uid="uid://d05w54o1go384" path="res://scripts/detect_7.gd" id="32_1gdd5"]
 [ext_resource type="Script" uid="uid://c8ulqjgn6cwdq" path="res://scripts/deathcount.gd" id="33_426vi"]
 [ext_resource type="Script" uid="uid://c4cg7vdupa3hv" path="res://scripts/floor_4_1.gd" id="34_cxum0"]
@@ -802,9 +800,6 @@ distance = -32.0
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1gdd5"]
 size = Vector2(48, 16)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_426vi"]
-size = Vector2(16, 128)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_naigu"]
 size = Vector2(16, 104)
 
@@ -1067,7 +1062,6 @@ position = Vector2(-168, -7)
 shape = SubResource("WorldBoundaryShape2D_jhsr3")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=1891062066]
-visible = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=2094818918]
 
@@ -1081,26 +1075,12 @@ position = Vector2(1802.2622, -363.86356)
 scale = Vector2(2.7570074, 3.280415)
 texture = ExtResource("28_0bq3a")
 
-[node name="detect6" type="Area2D" parent="." unique_id=2025029380 node_paths=PackedStringArray("wall5")]
+[node name="detect6" type="Area2D" parent="." unique_id=2025029380]
 script = ExtResource("29_i4jil")
-wall5 = NodePath("../wall5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detect6" unique_id=1763403660]
 position = Vector2(1846, -136)
 shape = SubResource("RectangleShape2D_1gdd5")
-
-[node name="wall5" type="StaticBody2D" parent="." unique_id=1175033207 node_paths=PackedStringArray("col")]
-script = ExtResource("30_1gdd5")
-col = NodePath("CollisionShape2D")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="wall5" unique_id=679372124]
-position = Vector2(1878, -64)
-shape = SubResource("RectangleShape2D_426vi")
-
-[node name="Sprite2D" type="Sprite2D" parent="wall5" unique_id=1464017029]
-position = Vector2(1878, -64)
-scale = Vector2(0.28070354, 0.28131866)
-texture = ExtResource("30_jai3c")
 
 [node name="detect7" type="Area2D" parent="." unique_id=1384740548 node_paths=PackedStringArray("floor4_1", "floor4_2", "floor4_3", "floor4_4", "floor4_5")]
 script = ExtResource("32_1gdd5")
