@@ -11,3 +11,4 @@ res://scenes/tutorial.tscn
 res://scripts/detect_8.gd
 res://scripts/game_over.gd
 res://scenes/player_ui.tscn
+res://scripts/detect_13.gd

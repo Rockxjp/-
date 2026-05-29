@@ -1340,6 +1340,39 @@ script = ExtResource("62_xlhy4")
 position = Vector2(2238, -24)
 shape = SubResource("RectangleShape2D_nc8ee")
 
+[node name="Label" type="Label" parent="." unique_id=642196833]
+offset_left = 891.0
+offset_top = -80.0
+offset_right = 931.0
+offset_bottom = -31.0
+text = "↗
+↘"
+
+[node name="Label2" type="Label" parent="." unique_id=929697054]
+offset_left = 932.0
+offset_top = -42.0
+offset_right = 972.0
+offset_bottom = 7.0
+text = "⭡
+⭢"
+
+[node name="Label3" type="Label" parent="." unique_id=1568939419]
+offset_left = 1313.0
+offset_top = -140.0
+offset_right = 1353.0
+offset_bottom = -65.0
+text = "⭢
+↘
+⭣"
+
+[node name="Label4" type="Label" parent="." unique_id=348782633]
+offset_left = 1553.0
+offset_top = -67.0
+offset_right = 1593.0
+offset_bottom = -18.0
+text = "↗
+↘"
+
 [connection signal="body_entered" from="detect1" to="detect1" method="_on_body_entered"]
 [connection signal="body_entered" from="detect2" to="detect2" method="_on_body_entered"]
 [connection signal="body_exited" from="detect2" to="detect2" method="_on_body_exited"]
