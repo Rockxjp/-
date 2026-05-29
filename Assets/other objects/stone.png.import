@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6bw45la8y173"
-path="res://.godot/imported/floor6.png-04ad25cb4cf13f4109ade4e8a62581f1.ctex"
+uid="uid://bd37yjflnyi58"
+path="res://.godot/imported/stone.png-584bf4f87777eff98fcfb36e5a1b3991.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/other objects/floor6.png"
-dest_files=["res://.godot/imported/floor6.png-04ad25cb4cf13f4109ade4e8a62581f1.ctex"]
+source_file="res://Assets/other objects/stone.png"
+dest_files=["res://.godot/imported/stone.png-584bf4f87777eff98fcfb36e5a1b3991.ctex"]
 
 [params]
 

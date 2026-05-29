@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://b22qhrgh1bsni"]
+
+[ext_resource type="Script" uid="uid://csdlrhbqmk7pk" path="res://scripts/stone_2.gd" id="1_wgful"]
+
+[node name="stone2" type="Control" unique_id=1704319257]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wgful")
+
+[node name="Panel" type="Panel" parent="." unique_id=1004523593]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="." unique_id=1999640265]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 64.0
+offset_right = 1088.0
+offset_bottom = 320.0
+theme_override_font_sizes/font_size = 64
+text = "石頭沒有視覺 聽覺 也無法自己移動"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1966967955]
+layout_mode = 0
+offset_left = 704.0
+offset_top = 448.0
+offset_right = 960.0
+offset_bottom = 512.0
+theme_override_font_sizes/font_size = 32
+text = "離開遊戲"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

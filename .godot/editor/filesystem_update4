@@ -1,1 +1,7 @@
+res://scripts/stone.gd
+res://scenes/stone.tscn
 res://scenes/Game.tscn
+res://scenes/stone_2.tscn
+res://scripts/stone_1.gd
+res://scenes/stone_1.tscn
+res://scripts/player_ui.gd

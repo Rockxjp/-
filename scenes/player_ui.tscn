@@ -33,7 +33,7 @@ offset_top = 224.0
 offset_right = 704.0
 offset_bottom = 288.0
 theme_override_font_sizes/font_size = 32
-text = "更換角色"
+text = "更換角色為石頭"
 
 [node name="繼續遊戲" type="Button" parent="." unique_id=911893547]
 layout_mode = 0

@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://8xvlahaco0vc"]
+
+[ext_resource type="Script" uid="uid://c1o64s6itrp45" path="res://scripts/stone_1.gd" id="1_mx4pu"]
+
+[node name="stone1" type="Control" unique_id=1143795945]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mx4pu")
+
+[node name="Panel" type="Panel" parent="." unique_id=1019460684]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="." unique_id=1766876646]
+process_mode = 2
+layout_mode = 0
+offset_left = 64.0
+offset_top = 64.0
+offset_right = 1088.0
+offset_bottom = 320.0
+theme_override_font_sizes/font_size = 64
+text = "石頭沒有視覺 聽覺 也無法自己移動"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=451328234]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 448.0
+offset_right = 448.0
+offset_bottom = 512.0
+theme_override_font_sizes/font_size = 32
+text = "通關遊戲"
+
+[node name="Button2" type="Button" parent="." unique_id=308429024]
+layout_mode = 0
+offset_left = 704.0
+offset_top = 448.0
+offset_right = 960.0
+offset_bottom = 512.0
+theme_override_font_sizes/font_size = 32
+text = "離開遊戲"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
