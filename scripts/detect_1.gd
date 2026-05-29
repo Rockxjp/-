@@ -16,5 +16,5 @@ func _on_body_entered(body):
 		triggered = true
 		wall1.enable_wall()
 		wall2.enable_wall()
-		await get_tree().create_timer(2.0).timeout
+		await get_tree().create_timer(1.0).timeout
 		wall2.disable_wall()
