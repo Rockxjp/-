@@ -22,10 +22,10 @@ layout_mode = 0
 offset_left = 128.0
 offset_top = 128.0
 offset_right = 1024.0
-offset_bottom = 309.0
+offset_bottom = 320.0
 theme_override_font_sizes/font_size = 64
 text = "恭喜通關遊戲
-作者：Rockxjp,、NEENmzd"
+作者：Rockxjp、NEENmzd"
 horizontal_alignment = 1
 vertical_alignment = 1
 

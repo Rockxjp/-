@@ -1,4 +1,9 @@
-res://scenes/character.tscn::2782223508002fefd14c5e71e5031768::1779765934::res://.godot/exported/133200997/export-b6bd7a241034177d7fe082a7597ba8ea-character.scn
-res://scenes/Game.tscn::3c1105e69c91aa3c5860763a73494293::1779815329::res://.godot/exported/133200997/export-ff8ceb9b2bd5b48777d3d52e811276ab-Game.scn
-res://scenes/game_over.tscn::934051954799d26344382446ab3c1082::1779725501::res://.godot/exported/133200997/export-21b8bee24a2bf9e9929bc898cc82b612-game_over.scn
-res://scenes/player_ui.tscn::24e33c2a0cfded482b633a7ac2e44cc0::1779728145::res://.godot/exported/133200997/export-732cf57afb09a7e053f3c339d5f515a4-player_ui.scn
+res://scenes/character.tscn::2782223508002fefd14c5e71e5031768::1779797202::res://.godot/exported/133200997/export-b6bd7a241034177d7fe082a7597ba8ea-character.scn
+res://scenes/Game.tscn::86a2403abf31f45d320b8f3df903bc50::1780165345::res://.godot/exported/133200997/export-ff8ceb9b2bd5b48777d3d52e811276ab-Game.scn
+res://scenes/game_over.tscn::0a47bb320f2f394b2244e1f311a8a9bc::1779797202::res://.godot/exported/133200997/export-21b8bee24a2bf9e9929bc898cc82b612-game_over.scn
+res://scenes/player_ui.tscn::bca421f0f41d1ae920c993facf70a687::1780164821::res://.godot/exported/133200997/export-732cf57afb09a7e053f3c339d5f515a4-player_ui.scn
+res://scenes/ending.tscn::a5438fb5683a05b191ca83a0570a312f::1780166882::res://.godot/exported/133200997/export-006133b4a0975dd47e96ebccbccc9102-ending.scn
+res://scenes/gamemanager.tscn::4ef8966f690dd73695d81838e9034e49::1780071881::res://.godot/exported/133200997/export-d6311f5f3301ebab8898cc12327bd4b6-gamemanager.scn
+res://scenes/stone_1.tscn::f33bcc0766fdc88ff9696be559139b88::1780164821::res://.godot/exported/133200997/export-0c901c78829af0bfad238b1652f77b55-stone_1.scn
+res://scenes/stone_2.tscn::40bdcbd8d39ae6ace3d9343557099535::1780071881::res://.godot/exported/133200997/export-4a5c10647881449f2515b8fb01f4a963-stone_2.scn
+res://scenes/tutorial.tscn::4e6b4a066a4d88c8e31c445a94e20da7::1780165162::res://.godot/exported/133200997/export-42ce494387c984238fc1312df9601261-tutorial.scn
