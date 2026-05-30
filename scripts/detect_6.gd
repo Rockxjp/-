@@ -4,7 +4,6 @@ extends Area2D
 
 var bodies := []
 
-
 func _physics_process(_delta):
 	for body in bodies:
 		if body.is_in_group("player"):

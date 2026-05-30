@@ -1,0 +1,4 @@
+res://scripts/area_2d.gd
+res://scenes/Game.tscn
+res://scripts/detect_6.gd
+res://scripts/wall_2.gd

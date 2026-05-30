@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkvlevlymktnr"
+path="res://.godot/imported/芒果醬Mango Jump - 夏夜晚風.mp3-ce4803a74de4ea7c3d0feb9e55d78325.mp3str"
+
+[deps]
+
+source_file="res://Assets/music/芒果醬Mango Jump - 夏夜晚風.mp3"
+dest_files=["res://.godot/imported/芒果醬Mango Jump - 夏夜晚風.mp3-ce4803a74de4ea7c3d0feb9e55d78325.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
