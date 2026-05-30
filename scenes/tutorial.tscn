@@ -19,23 +19,23 @@ offset_bottom = 648.0
 [node name="Label" type="Label" parent="." unique_id=347899611]
 layout_mode = 0
 offset_right = 1152.0
-offset_bottom = 384.0
+offset_bottom = 512.0
 theme_override_font_sizes/font_size = 48
 text = "按下D或⭢以向右走
 按下A或⭠以向左走
 按下空格鍵或⭡以跳躍
 按下Esc以暫停遊戲
-在死亡畫面中 可按下空格鍵重生
-提示：觸發機關的偵測器可能為場景中的裝飾物"
+
+提示：場景中的植物可能是提示"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Button" type="Button" parent="." unique_id=1662416626]
 layout_mode = 0
 offset_left = 448.0
-offset_top = 448.0
+offset_top = 512.0
 offset_right = 704.0
-offset_bottom = 512.0
+offset_bottom = 576.0
 theme_override_font_sizes/font_size = 32
 text = "開始遊戲"
 

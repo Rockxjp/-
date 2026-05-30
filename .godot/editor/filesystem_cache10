@@ -1,8 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780158946
+::res://::1780165674
 export_presets.cfg::TextFile::-1::1780071881::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1779207524::0::1::::<><><>0<>0<><>::
-::res://Assets/::1780158948
+::res://Assets/::1780165677
 ::res://Assets/Ent/::1779797201
 ::res://Assets/Ent/Characters/::1779797201
 ::res://Assets/Ent/Characters/Body_A/::1779797201
@@ -144,7 +144,8 @@ Death-Sheet.png::CompressedTexture2D::8057000500374682048::1779797202::178014820
 Idle-Sheet.png::CompressedTexture2D::702169341532394656::1779797202::1780148202::1::::<><><>0<>0<>f1177a71366298b62d6098b7ec402065<>res://.godot/imported/Idle-Sheet.png-a51244fde7de452d2438a919734bc994.ctex::
 ::res://Assets/Ent/Npc's/Wizzard/Run/::1780148202
 Run-Sheet.png::CompressedTexture2D::4588252104514963069::1779797202::1780148202::1::::<><><>0<>0<>d1f15e5850a2000b85da032a2db6cf7f<>res://.godot/imported/Run-Sheet.png-41467e9194af9a45daa3777c83f2db14.ctex::
-::res://Assets/music/::1780158954
+::res://Assets/music/::1780165677
+winning.mp3::AudioStreamMP3::6911491943918468052::1780165649::1780165679::1::::<><><>0<>0<>c110a8c91e350fe97e16070179df8438<>res://.godot/imported/winning.mp3-1b752d73e667386ca25f85436358311d.mp3str::
 牢大.mp3::AudioStreamMP3::4169333431450199061::1779797202::1780148202::1::::<><><>0<>0<>6a5f6b29a52a20e75604e1d7a019d41e<>res://.godot/imported/牢大.mp3-b90465cd4dc8bc19d0bf5da3dd51a880.mp3str::
 芒果醬Mango Jump - 夏夜晚風.mp3::AudioStreamMP3::3132337204094834151::1780157973::1780159205::1::::<><><>0<>0<>e492bef84d9ff67ceca12182bb58ef53<>res://.godot/imported/芒果醬Mango Jump - 夏夜晚風.mp3-ce4803a74de4ea7c3d0feb9e55d78325.mp3str::
 ::res://Assets/other objects/::1780148202
@@ -294,17 +295,17 @@ Bone.png::CompressedTexture2D::3916303388371925205::1779797202::1780148202::1:::
 Hands.png::CompressedTexture2D::2427795820876922584::1779797202::1780148202::1::::<><><>0<>0<>c91787430335e851a8f4a0c14db484c6<>res://.godot/imported/Hands.png-ccd1f50d236acd62dce737eb38cdaf77.ctex::
 ::res://Assets/Weapons/Wood/::1780148202
 Wood.png::CompressedTexture2D::5070015381237322473::1779797202::1780148202::1::::<><><>0<>0<>67b39701d93e189acfce11c10ada9b9d<>res://.godot/imported/Wood.png-b70a39c737f17dbcca6f6528d9c38d2a.ctex::
-::res://scenes/::1780159018
+::res://scenes/::1780165345
 character.tscn::PackedScene::2358627908442173553::1779797202::0::1::::<><><>0<>0<><>::uid://dcfhr70g0ae4f::::res://scripts/character.gd<>uid://bujuukmh3mcmg::::res://Assets/Ent/Npc's/Knight/Idle/Idle-Sheet.png<>uid://dyoatd3qat5s1::::res://Assets/Ent/Npc's/Knight/Run/Run-Sheet.png
-ending.tscn::PackedScene::2919000654295556273::1780071881::0::1::::<><><>0<>0<><>::uid://cow3wey3un8x3::::res://scripts/ending.gd
-Game.tscn::PackedScene::1101020746281433329::1780159018::0::1::::<><><>0<>0<><>::uid://b5tsapsbe3e25::::res://Assets/Tilemap/Assets.png<>uid://bmxgavrlnk4wm::::res://scripts/game.gd<>uid://bynfhggkvcnqq::::res://Assets/Structures/Buildings/Props.png<>uid://8usi0fgdmej6::::res://scenes/character.tscn<>uid://bp3geryijkeji::::res://scripts/wall_1.gd<>uid://bfygoxvowojau::::res://Assets/other objects/wall1.png<>uid://3wud73lpgfxd::::res://scripts/wall_2.gd<>uid://kq4k51eg1dk4::::res://Assets/other objects/wall2.png<>uid://b5vtmktu2faoa::::res://scripts/detect_1.gd<>uid://br03j3o622cla::::res://scripts/detect_2.gd<>uid://b3clixhq31h6h::::res://scripts/movingplatform_1.gd<>uid://cay2fakyncslq::::res://Assets/other objects/moving platform1.png<>uid://dnolrkalhq8p3::::res://Assets/other objects/floor1.png<>uid://bfv0172pdexcs::::res://scripts/floor_1.gd<>uid://c5hmtds78q0mc::::res://scripts/detect_3.gd<>uid://bhv4gw001qiyv::::res://scripts/wall_3.gd<>uid://cxrsa52iag2sy::::res://Assets/other objects/wall3.png<>uid://d3wpsmgfitill::::res://scripts/floor_2.gd<>uid://dwtgc62slmjgb::::res://Assets/other objects/floor2.png<>uid://cx70mcpcgq3s6::::res://scripts/detect_4.gd<>uid://mijvtm2vvmc::::res://Assets/other objects/wall4.png<>uid://bey87yarlgcv8::::res://scripts/wall_4.gd<>uid://cmruxfrmldpf4::::res://Assets/other objects/floor3.png<>uid://dnnnhhmbs4pks::::res://scripts/floor_3.gd<>uid://dygbgy5n4gktm::::res://scripts/killzone.gd<>uid://cb5btfj842f4x::::res://Assets/other objects/moving platform2.png<>uid://yn30t8wt6pat::::res://scripts/movingplatform_2.gd<>uid://d3is6ar0mu37n::::res://Assets/Tilemap/Background_2.png<>uid://be2sj3nsqtp0q::::res://scripts/detect_6.gd<>uid://d05w54o1go384::::res://scripts/detect_7.gd<>uid://c8ulqjgn6cwdq::::res://scripts/deathcount.gd<>uid://c4cg7vdupa3hv::::res://scripts/floor_4_1.gd<>uid://bcp7hae2e20u2::::res://Assets/other objects/floor4-1.png<>uid://mmtw2hqx64gk::::res://scripts/floor_4_2.gd<>uid://dtn02wib3ogiq::::res://Assets/other objects/floor4-2.png<>uid://cp4ox0l0m3e37::::res://Assets/other objects/floor4-3.png<>uid://bdvt66poedkv5::::res://Assets/other objects/floor4-4.png<>uid://c37aunpf6lnnb::::res://scripts/floor_4_3.gd<>uid://c4l1ra75oo555::::res://scripts/floor_4_4.gd<>uid://dm3eiyl8dfaw4::::res://scripts/floor_4_5.gd<>uid://dwmqh0ii5rk1b::::res://scripts/wall_6.gd<>uid://bisa3xpvgy6i3::::res://scripts/detect_8.gd<>uid://dp7h7xegr66my::::res://scripts/movingplatform_3.gd<>uid://kpbmfc5hc30p::::res://Assets/other objects/moving platform3.png<>uid://cv8qdrlf33x1p::::res://scripts/detect_9.gd<>uid://clex57kmk3vr2::::res://scripts/floor_5.gd<>uid://ddheulx0cw6oe::::res://Assets/other objects/floor5.png<>uid://cvv4uobhuodgg::::res://Assets/other objects/wall7.png<>uid://vr5r4j0ino5t::::res://scripts/wall_7.gd<>uid://lixe3lgu56hx::::res://scripts/detect_10.gd<>uid://bp7d177bdngey::::res://scripts/movingplatform_4.gd<>uid://brcru2jc8upvh::::res://Assets/other objects/moving platform4.png<>uid://c6mo7dihitkpv::::res://scripts/detect_11.gd<>uid://btha12shadhd8::::res://scripts/detect_12.gd<>uid://chc6r0tjb000u::::res://scripts/floor_6.gd<>uid://b6bw45la8y173::::res://Assets/other objects/floor6.png<>uid://dcr3xc4o5ut5h::::res://scripts/detect_13.gd<>uid://cktlmn885d345::::res://Assets/other objects/wall8.png<>uid://brpm6nqalac2y::::res://scripts/wall_8.gd<>uid://1nf3mp0w0po1::::res://scripts/tile_map_layer_2.gd<>uid://c1srn30iea4xu::::res://scripts/area_2d.gd<>uid://cp02yuc2425sv::::res://scripts/end.gd<>uid://bkvlevlymktnr::::res://Assets/music/芒果醬Mango Jump - 夏夜晚風.mp3
+ending.tscn::PackedScene::2919000654295556273::1780164821::0::1::::<><><>0<>0<><>::uid://cow3wey3un8x3::::res://scripts/ending.gd
+Game.tscn::PackedScene::1101020746281433329::1780165345::0::1::::<><><>0<>0<><>::uid://b5tsapsbe3e25::::res://Assets/Tilemap/Assets.png<>uid://bmxgavrlnk4wm::::res://scripts/game.gd<>uid://bynfhggkvcnqq::::res://Assets/Structures/Buildings/Props.png<>uid://8usi0fgdmej6::::res://scenes/character.tscn<>uid://bp3geryijkeji::::res://scripts/wall_1.gd<>uid://bfygoxvowojau::::res://Assets/other objects/wall1.png<>uid://3wud73lpgfxd::::res://scripts/wall_2.gd<>uid://kq4k51eg1dk4::::res://Assets/other objects/wall2.png<>uid://b5vtmktu2faoa::::res://scripts/detect_1.gd<>uid://br03j3o622cla::::res://scripts/detect_2.gd<>uid://b3clixhq31h6h::::res://scripts/movingplatform_1.gd<>uid://cay2fakyncslq::::res://Assets/other objects/moving platform1.png<>uid://dnolrkalhq8p3::::res://Assets/other objects/floor1.png<>uid://bfv0172pdexcs::::res://scripts/floor_1.gd<>uid://c5hmtds78q0mc::::res://scripts/detect_3.gd<>uid://bhv4gw001qiyv::::res://scripts/wall_3.gd<>uid://cxrsa52iag2sy::::res://Assets/other objects/wall3.png<>uid://d3wpsmgfitill::::res://scripts/floor_2.gd<>uid://dwtgc62slmjgb::::res://Assets/other objects/floor2.png<>uid://cx70mcpcgq3s6::::res://scripts/detect_4.gd<>uid://mijvtm2vvmc::::res://Assets/other objects/wall4.png<>uid://bey87yarlgcv8::::res://scripts/wall_4.gd<>uid://cmruxfrmldpf4::::res://Assets/other objects/floor3.png<>uid://dnnnhhmbs4pks::::res://scripts/floor_3.gd<>uid://dygbgy5n4gktm::::res://scripts/killzone.gd<>uid://cb5btfj842f4x::::res://Assets/other objects/moving platform2.png<>uid://yn30t8wt6pat::::res://scripts/movingplatform_2.gd<>uid://d3is6ar0mu37n::::res://Assets/Tilemap/Background_2.png<>uid://be2sj3nsqtp0q::::res://scripts/detect_6.gd<>uid://d05w54o1go384::::res://scripts/detect_7.gd<>uid://c8ulqjgn6cwdq::::res://scripts/deathcount.gd<>uid://c4cg7vdupa3hv::::res://scripts/floor_4_1.gd<>uid://bcp7hae2e20u2::::res://Assets/other objects/floor4-1.png<>uid://mmtw2hqx64gk::::res://scripts/floor_4_2.gd<>uid://dtn02wib3ogiq::::res://Assets/other objects/floor4-2.png<>uid://cp4ox0l0m3e37::::res://Assets/other objects/floor4-3.png<>uid://bdvt66poedkv5::::res://Assets/other objects/floor4-4.png<>uid://c37aunpf6lnnb::::res://scripts/floor_4_3.gd<>uid://c4l1ra75oo555::::res://scripts/floor_4_4.gd<>uid://dm3eiyl8dfaw4::::res://scripts/floor_4_5.gd<>uid://dwmqh0ii5rk1b::::res://scripts/wall_6.gd<>uid://bisa3xpvgy6i3::::res://scripts/detect_8.gd<>uid://dp7h7xegr66my::::res://scripts/movingplatform_3.gd<>uid://kpbmfc5hc30p::::res://Assets/other objects/moving platform3.png<>uid://cv8qdrlf33x1p::::res://scripts/detect_9.gd<>uid://clex57kmk3vr2::::res://scripts/floor_5.gd<>uid://ddheulx0cw6oe::::res://Assets/other objects/floor5.png<>uid://cvv4uobhuodgg::::res://Assets/other objects/wall7.png<>uid://vr5r4j0ino5t::::res://scripts/wall_7.gd<>uid://lixe3lgu56hx::::res://scripts/detect_10.gd<>uid://bp7d177bdngey::::res://scripts/movingplatform_4.gd<>uid://brcru2jc8upvh::::res://Assets/other objects/moving platform4.png<>uid://c6mo7dihitkpv::::res://scripts/detect_11.gd<>uid://btha12shadhd8::::res://scripts/detect_12.gd<>uid://chc6r0tjb000u::::res://scripts/floor_6.gd<>uid://b6bw45la8y173::::res://Assets/other objects/floor6.png<>uid://dcr3xc4o5ut5h::::res://scripts/detect_13.gd<>uid://cktlmn885d345::::res://Assets/other objects/wall8.png<>uid://brpm6nqalac2y::::res://scripts/wall_8.gd<>uid://1nf3mp0w0po1::::res://scripts/tile_map_layer_2.gd<>uid://c1srn30iea4xu::::res://scripts/area_2d.gd<>uid://cp02yuc2425sv::::res://scripts/end.gd<>uid://bkvlevlymktnr::::res://Assets/music/芒果醬Mango Jump - 夏夜晚風.mp3
 gamemanager.tscn::PackedScene::8698149056868621609::1780071881::0::1::::<><><>0<>0<><>::uid://byhjleughbt0p::::res://scripts/gamemanager.gd
 game_over.tscn::PackedScene::885835632339586302::1779797202::0::1::::<><><>0<>0<><>::uid://cerxgo0sqe2m6::::res://scripts/game_over.gd<>uid://b0nwkvhjiaf2l::::res://Assets/music/牢大.mp3
-player_ui.tscn::PackedScene::550478680731722071::1780071881::0::1::::<><><>0<>0<><>::uid://71c4q8fucq2p::::res://scripts/player_ui.gd
-stone_1.tscn::PackedScene::2365007239796376576::1780071881::0::1::::<><><>0<>0<><>::uid://c1o64s6itrp45::::res://scripts/stone_1.gd
+player_ui.tscn::PackedScene::550478680731722071::1780164821::0::1::::<><><>0<>0<><>::uid://71c4q8fucq2p::::res://scripts/player_ui.gd
+stone_1.tscn::PackedScene::2365007239796376576::1780164821::0::1::::<><><>0<>0<><>::uid://c1o64s6itrp45::::res://scripts/stone_1.gd
 stone_2.tscn::PackedScene::4338242536239819282::1780071881::0::1::::<><><>0<>0<><>::uid://csdlrhbqmk7pk::::res://scripts/stone_2.gd
-tutorial.tscn::PackedScene::2680780151778713886::1780071881::0::1::::<><><>0<>0<><>::uid://nybude6xpynt::::res://scripts/tutorial.gd
-::res://scripts/::1780159018
+tutorial.tscn::PackedScene::2680780151778713886::1780165162::0::1::::<><><>0<>0<><>::uid://nybude6xpynt::::res://scripts/tutorial.gd
+::res://scripts/::1780164821
 area_2d.gd::GDScript::6635967015388691094::1780154048::0::1::::<>Area2D<><>0<>0<><>::
 character.gd::GDScript::7310418724244756863::1780071881::0::1::::<>CharacterBody2D<><>0<>0<><>::
 deathcount.gd::GDScript::7131057704756544622::1780071881::0::1::::<>CanvasLayer<><>0<>0<><>::
@@ -319,7 +320,7 @@ detect_9.gd::GDScript::6315909289090356447::1780071881::0::1::::<>Area2D<><>0<>0
 detect_10.gd::GDScript::789997424007289777::1780071881::0::1::::<>Area2D<><>0<>0<><>::
 detect_11.gd::GDScript::6974375406775593779::1780071881::0::1::::<>Area2D<><>0<>0<><>::
 detect_12.gd::GDScript::3734507233990769563::1780071881::0::1::::<>Area2D<><>0<>0<><>::
-detect_13.gd::GDScript::7336475459754681167::1780071881::0::1::::<>Area2D<><>0<>0<><>::
+detect_13.gd::GDScript::7336475459754681167::1780164821::0::1::::<>Area2D<><>0<>0<><>::
 end.gd::GDScript::5878966738489812729::1780071881::0::1::::<>Area2D<><>0<>0<><>::
 ending.gd::GDScript::5802641100639514326::1780071881::0::1::::<>Control<><>0<>0<><>::
 floor_1.gd::GDScript::2782282913321855266::1779809621::0::1::::<>StaticBody2D<><>0<>0<><>::
@@ -332,7 +333,7 @@ floor_4_4.gd::GDScript::6832635039308208802::1780071881::0::1::::<>StaticBody2D<
 floor_4_5.gd::GDScript::8059589185228497857::1780071881::0::1::::<>StaticBody2D<><>0<>0<><>::
 floor_5.gd::GDScript::5554627919826535601::1780071881::0::1::::<>StaticBody2D<><>0<>0<><>::
 floor_6.gd::GDScript::5270205956478996994::1780071881::0::1::::<>StaticBody2D<><>0<>0<><>::
-game.gd::GDScript::3276532927419080748::1780071881::0::1::::<>Node2D<><>0<>0<><>::
+game.gd::GDScript::3276532927419080748::1780164821::0::1::::<>Node2D<><>0<>0<><>::
 gamemanager.gd::GDScript::4085969913223666661::1780071881::0::1::::<>Node2D<><>0<>0<><>::
 game_over.gd::GDScript::5090099144140826179::1780071881::0::1::::<>Control<><>0<>0<><>::
 killzone.gd::GDScript::8856253304206833114::1780071881::0::1::::<>Area2D<><>0<>0<><>::
@@ -346,7 +347,7 @@ stone_2.gd::GDScript::6043132301501467480::1780071881::0::1::::<>Control<><>0<>0
 tile_map_layer_2.gd::GDScript::1852101087203341882::1780150618::0::1::::<>Area2D<><>0<>0<><>::
 tutorial.gd::GDScript::962096631451839733::1780071881::0::1::::<>Control<><>0<>0<><>::
 wall_1.gd::GDScript::3497428290857645738::1779809621::0::1::::<>StaticBody2D<><>0<>0<><>::
-wall_2.gd::GDScript::2011925354213071141::1779809621::0::1::::<>StaticBody2D<><>0<>0<><>::
+wall_2.gd::GDScript::2011925354213071141::1780159796::0::1::::<>StaticBody2D<><>0<>0<><>::
 wall_3.gd::GDScript::2922867224853322725::1779809621::0::1::::<>StaticBody2D<><>0<>0<><>::
 wall_4.gd::GDScript::2718783191856659443::1779809621::0::1::::<>StaticBody2D<><>0<>0<><>::
 wall_6.gd::GDScript::8729174442452773637::1780071881::0::1::::<>StaticBody2D<><>0<>0<><>::

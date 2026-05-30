@@ -12,4 +12,3 @@ Button
 Panel
 CollisionPolygon2D
 AnimatableBody2D
-ParallaxLayer
